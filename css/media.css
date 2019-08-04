@@ -1,0 +1,210 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.custom_navbar {
+		padding: 7px 0;
+	}
+	.custom-navbar-toggler:focus {
+		box-shadow: none;
+		outline: none;
+		border: none;
+	}
+	.custom_brand {
+		font-size: 30px;
+		margin: 0 auto;
+		padding: 0px;
+		margin-top: -7px;
+	}
+	.custom_nav li a {
+		font-size: 12px;
+		text-align: center;
+	}
+	.banner {
+		min-height: 400px;
+	}
+	.banner_content {
+		padding-top: 100px;
+	}
+	.banner_content h1 {
+		font-size: 18px;
+	}
+	.banner_content p {
+		width: 100%;
+	}
+	.food_menu {
+		padding: 30px 0;
+	}
+	.common_header h1 {
+		font-size: 18px;
+	}
+	.common_header h1 hr {
+		width: 0px;
+	}
+	.common_header p {
+		width: 100%;
+		font-size: 10px;
+	}
+	.food_item_select a {
+		margin-top: 10px!important;
+	}
+	.food_item_btn {
+		padding: 4px 5px;
+	}
+	.food_item_btn.active, .food_item_btn:hover {
+		padding: 4px 5px;
+	}
+	.center_banner_content {
+		padding: 0px;
+		padding-left: 10px;
+	}
+	.center_banner_content h1 {
+		font-size: 16px;
+	}
+	.service {
+		padding: 30px 0;
+	}
+	.service_content {
+		margin-top: 20px;
+	}
+	.service_content img {
+		width: 15%;
+		margin-bottom: 10px;
+	}
+	.subscribe {
+		padding: 50px 0;
+	}
+	.subscribe form input {
+		width: 100%;
+	}
+	footer {
+		padding: 20px 0;
+		padding-bottom: 10px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.custom_navbar {
+		padding: 10px 0;
+	}
+	.custom-navbar-toggler:focus {
+		box-shadow: none;
+		outline: none;
+		border: none;
+	}
+	.custom_brand {
+		font-size: 30px;
+		margin: 0 auto;
+		padding: 0px;
+		margin-top: -7px;
+	}
+	.custom_nav li a {
+		font-size: 12px;
+		text-align: center;
+	}
+	.banner {
+		min-height: 400px;
+	}
+	.banner_content {
+		padding-top: 150px;
+	}
+	.banner_content h1 {
+		font-size: 30px;
+	}
+	.banner_content p {
+		width: 80%;
+	}
+	.food_menu {
+		padding: 30px 0;
+	}
+	.common_header h1 {
+		font-size: 25px;
+	}
+	.common_header h1 hr {
+		width: 50px;
+	}
+	.common_header p {
+		width: 70%;
+	}
+	.food_item_btn {
+		padding: 4px 5px;
+	}
+	.food_item_btn.active, .food_item_btn:hover {
+		padding: 4px 5px;
+	}
+	.center_banner_content {
+		padding: 20px;
+	}
+	.center_banner_content h1 {
+		font-size: 25px;
+	}
+	.service {
+		padding: 30px 0;
+	}
+	.service_content {
+		margin-top: 20px;
+	}
+	.service_content img {
+		width: 10%;
+		margin-bottom: 10px;
+	}
+	.subscribe {
+		padding: 70px 0;
+	}
+	.subscribe form input {
+		width: 90%;
+	}
+	footer {
+		padding: 30px 0;
+		padding-bottom: 10px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.custom_navbar {
+		padding: 10px 0;
+	}
+	.custom_brand {
+		font-size: 35px;
+	}
+	.custom_nav li a {
+		font-size: 12px;
+	}
+	.banner_content p {
+		width: 70%;
+	}
+	.common_header h1 {
+		font-size: 30px;
+	}
+	.common_header h1 hr {
+		width: 100px;
+	}
+	.common_header p {
+		width: 70%;
+	}
+	.food_item_btn {
+		padding: 7px 10px;
+	}
+	.center_banner_content {
+		padding: 40px;
+	}
+	.center_banner_content h1 {
+		font-size: 30px;
+	}
+	.service_content img {
+		width: 18%;
+		margin-bottom: 10px;
+	}
+	.subscribe form input {
+		width: 50%;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

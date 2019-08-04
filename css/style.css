@@ -1,0 +1,281 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+a {
+	text-decoration: none;
+}
+/* Header Section Starts Here */
+.custom_navbar {
+	background: rgba(0, 0, 0, 0.50);
+	padding: 30px 0;
+}
+.custom_brand {
+	color: #E59205;
+	font-size: 40px;
+}
+.custom_nav li a {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	margin: 0px 10px;
+	text-transform: uppercase;
+	transition: .5s ease;
+}
+.custom_nav li a:hover {
+	color: #E59205;
+}
+/* Header Section Ends Here */
+/* Banner Section Starts Here */
+.banner {
+	background-image: url(../images/banner_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 700px;
+}
+.banner_content {
+	color: #fff;
+	padding-top: 300px;
+}
+.banner_content h1 {
+	color: #fff;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 35px;
+	word-spacing: 7px;
+}
+.banner_content span {
+	color: #E59205;
+}
+.banner_content p {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	width: 40%;
+	line-height: 2;
+	margin: 20px auto;
+}
+.banner_btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	padding: 7px 20px;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0px;
+	transition: .5s ease;
+}
+.banner_btn:hover {
+	text-decoration: none;
+	background-color: #E59205;
+	color: #fff;
+	border: 0px; 
+}
+/* Banner Section Ends Here */
+/* Food Menu Section Starts Here */
+.food_menu {
+	padding: 50px 0;
+}
+.common_header h1 {
+	color: #6E7498;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 35px;
+	word-spacing: 7px;
+	position: relative;
+}
+.common_header h1 hr {
+	width: 150px;
+	border-color: #E59205;
+}
+.common_header p {
+	color: #A4A8BC;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	width: 40%;
+	line-height: 2;
+	margin: 20px auto;
+}
+.food_item_select {
+	margin-top: 20px;
+}
+.food_item_select a {
+	margin: 10px 10px;
+}
+.food_item_btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #6E7498;
+	padding: 10px 30px;
+	border: 1px solid #A4A8BC;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 0px;
+	transition: .5s ease;
+}
+.food_item_btn.active, .food_item_btn:hover {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+	background-color: #E59205;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+.load_more:hover {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	padding: 7px 30px;
+	border: none;
+	background-color: #E59205;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+.food_price {
+	font-size: 35px;
+	font-style: italic;
+	color: #E59205;
+}
+.menu_item {
+	margin: 50px 0;
+}
+.menu_item h5 {
+	font-weight: 700;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+}
+.menu_item p {
+	font-weight: 300;
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #A4A8BC;
+	padding-top: 0px;
+}
+/* Food Menu Section Ends Here */
+/* Breakfast offer banner section Starts */
+.center_banner {
+	background-color: #E59205;
+}
+.center_banner_content {
+	padding: 70px;
+}
+.center_banner_content h1 {
+	color: #fff;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 35px;
+	word-spacing: 7px;
+}
+/* Breakfast offer banner section Ends */
+/* Service Section Starts Here */
+.service {
+	padding: 50px 0;
+}
+.service_content img {
+	width: 15%;
+	margin-bottom: 20px;
+}
+.service_content h3 {
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 10px;
+	color: #6E7498;
+	word-spacing: 7px;
+}
+.service_content p {
+	font-weight: 300;
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #A4A8BC;
+	padding-top: 0px;
+}
+/* Service Section Ends Here */
+/* Subscriber Section Starts Here */
+.subscribe {
+	background-image: url(../images/bottom_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 100px 0;
+}
+.subscribe form input {
+	width: 30%;
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin: 30px auto;
+	border-radius: 1px;
+}
+.subscribe form input:focus {
+	box-shadow: none!important;
+	outline: none;
+	border-color: #fff;
+	background-color: transparent;
+	color: #fff;
+}
+.subscribe form input::placeholder {
+	color: #fff;
+}
+.subscribe_btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	padding: 10px 25px;
+	border: none;
+	background-color: #E59205;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0px;
+	text-decoration: none;
+	transition: .5s ease;
+}
+.subscribe_btn:hover {
+	color: #E59205;
+	border: none;
+	background-color: #fff;
+}
+/* Subscriber Section Ends Here */
+/* Footer Section Starts Here */
+footer {
+	padding: 40px 0;
+	padding-bottom: 20px;
+}
+.footer_copyright p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: #A4A8BC;
+	font-weight: 300;
+}
+.footer_menu li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #A4A8BC;
+	font-weight: 300;
+}
+/* Footer Section Ends Here */
+
